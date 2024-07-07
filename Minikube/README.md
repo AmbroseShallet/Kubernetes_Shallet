@@ -1,6 +1,6 @@
-Minikube setup on Ubuntu
+Minikube setup on Ubuntu 22.04, 20.04, 18.04, 16.04
 
-Create an Ubuntu Ece machine t3.micro.
+Create an Ubuntu Ece machine t3.micro, minimum memory 1800 MiB
 
 Refer below pages.
 
@@ -15,4 +15,6 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/   --- Kubectl inst
 
 
 
-
+Start minikube
+switch to ubuntu user because docker driver should not be used with root privileges. 
+minikube start -driver=docker
