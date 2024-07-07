@@ -16,5 +16,7 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/   --- Kubectl inst
 
 
 Start minikube
-switch to ubuntu user because docker driver should not be used with root privileges. 
+
+switch to ubuntu user because docker driver should not be used with root privileges.
+Give full permission to /var/docker/docker.sock if getting permission related error. 
 minikube start -driver=docker
