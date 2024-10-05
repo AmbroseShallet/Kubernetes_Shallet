@@ -34,6 +34,13 @@ Kubectl get nodes
 
 ![image](https://github.com/user-attachments/assets/99c087ed-fc55-4bc3-96df-d18f3aa625d0)
 
+If we are facing any issue with minikube , stop minikube and start again.
+
+Minikube stop 
+minikube start 
+![image](https://github.com/user-attachments/assets/8e23ec50-ec39-4396-b27d-6785ad33b1cd)
+
+
 
 
 
